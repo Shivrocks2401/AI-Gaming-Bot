@@ -2,9 +2,11 @@ This is just a simple game of pong.
 
 In order to play, you need to have pygame set up.
 
+**************************************************************************************************************
 The major focus of this project is the game's artificial intelligence.  The AI consists
 of three separate factors: the notion of a 'hit-zone', reaction-time, and position calculation.
 
+**************************************************************************************************************
 The point on the paddle at which the ball hits affects its vertical speed.  The farther away
 from the middle of the paddle, the faster the ball will move.  For example, a ball that bounces
 off the top of the paddle will move upwards much faster than a ball that hits near the middle of
@@ -28,3 +30,5 @@ To play the game:
     limit yet.  To quit, press the q key at any time.
 
     To show some vague information about the AI state during the game, press the 's' key.
+    
+    **************************************************************************************************
